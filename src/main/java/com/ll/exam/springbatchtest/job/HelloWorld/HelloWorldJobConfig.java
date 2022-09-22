@@ -23,6 +23,7 @@ public class HelloWorldJobConfig {
     private final StepBuilderFactory stepBuilderFactory;
 
     @Bean
+    @JobScope
     public Job helloWorldJob() {
         return jobBuilderFactory.get("helloWorldJob")
                 .start(helloWorldStep1())
@@ -30,6 +31,7 @@ public class HelloWorldJobConfig {
     }
 
     @Bean
+    @StepScope
     public Step helloWorldStep1() {
         return stepBuilderFactory.get("helloWorldStep1")
                 .tasklet(helloWorldTasklet())
