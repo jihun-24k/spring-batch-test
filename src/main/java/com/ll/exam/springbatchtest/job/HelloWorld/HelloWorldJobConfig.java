@@ -26,7 +26,7 @@ public class HelloWorldJobConfig {
     @Bean
     public Job helloWorldJob() {
         return jobBuilderFactory.get("helloWorldJob")
-                .incrementer(new RunIdIncrementer())
+                //.incrementer(new RunIdIncrementer())
                 .start(helloWorldStep1())
                 .next(helloWorldStep2())
                 .build();
@@ -64,7 +64,7 @@ public class HelloWorldJobConfig {
         return (contribution, chunkContext) -> {
             System.out.println("헬로월드2!");
 
-            if ( true ) {
+            if ( false ) {
                 throw new Exception("실패 : 헬로월드 테스클릿 2");
             }
 
