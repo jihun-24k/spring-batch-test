@@ -1,9 +1,9 @@
-package com.ll.exam.springbatchtest.cart.service;
+package com.ll.exam.springbatchtest.app.cart.service;
 
 import com.ll.exam.springbatchtest.app.member.entity.Member;
-import com.ll.exam.springbatchtest.cart.entity.CartItem;
-import com.ll.exam.springbatchtest.cart.repository.CartItemRepository;
-import com.ll.exam.springbatchtest.product.entity.ProductOption;
+import com.ll.exam.springbatchtest.app.cart.entity.CartItem;
+import com.ll.exam.springbatchtest.app.cart.repository.CartItemRepository;
+import com.ll.exam.springbatchtest.app.product.entity.ProductOption;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

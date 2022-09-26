@@ -2,10 +2,10 @@ package com.ll.exam.springbatchtest.app.base;
 
 import com.ll.exam.springbatchtest.app.member.entity.Member;
 import com.ll.exam.springbatchtest.app.member.service.MemberService;
-import com.ll.exam.springbatchtest.cart.service.CartItemService;
-import com.ll.exam.springbatchtest.product.entity.Product;
-import com.ll.exam.springbatchtest.product.entity.ProductOption;
-import com.ll.exam.springbatchtest.product.service.ProductService;
+import com.ll.exam.springbatchtest.app.cart.service.CartItemService;
+import com.ll.exam.springbatchtest.app.product.entity.Product;
+import com.ll.exam.springbatchtest.app.product.entity.ProductOption;
+import com.ll.exam.springbatchtest.app.product.service.ProductService;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

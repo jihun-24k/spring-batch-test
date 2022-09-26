@@ -1,8 +1,8 @@
-package com.ll.exam.springbatchtest.cart.entity;
+package com.ll.exam.springbatchtest.app.cart.entity;
 
 import com.ll.exam.springbatchtest.app.base.entity.BaseEntity;
 import com.ll.exam.springbatchtest.app.member.entity.Member;
-import com.ll.exam.springbatchtest.product.entity.ProductOption;
+import com.ll.exam.springbatchtest.app.product.entity.ProductOption;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

@@ -1,4 +1,4 @@
-package com.ll.exam.springbatchtest.product.entity;
+package com.ll.exam.springbatchtest.app.product.entity;
 
 import com.ll.exam.springbatchtest.app.base.entity.BaseEntity;
 import lombok.Builder;

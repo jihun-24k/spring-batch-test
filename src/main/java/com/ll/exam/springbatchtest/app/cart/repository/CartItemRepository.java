@@ -1,6 +1,6 @@
-package com.ll.exam.springbatchtest.cart.repository;
+package com.ll.exam.springbatchtest.app.cart.repository;
 
-import com.ll.exam.springbatchtest.cart.entity.CartItem;
+import com.ll.exam.springbatchtest.app.cart.entity.CartItem;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

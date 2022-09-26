@@ -1,8 +1,8 @@
-package com.ll.exam.springbatchtest.product.service;
+package com.ll.exam.springbatchtest.app.product.service;
 
-import com.ll.exam.springbatchtest.product.entity.Product;
-import com.ll.exam.springbatchtest.product.entity.ProductOption;
-import com.ll.exam.springbatchtest.product.repository.ProductRepository;
+import com.ll.exam.springbatchtest.app.product.entity.Product;
+import com.ll.exam.springbatchtest.app.product.entity.ProductOption;
+import com.ll.exam.springbatchtest.app.product.repository.ProductRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
