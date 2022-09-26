@@ -1,4 +1,6 @@
 spring:
+  profiles:
+    active: dev
   output:
     ansi:
       enabled: always
@@ -14,7 +16,8 @@ spring:
     password: roger3495
   jpa:
     show-sql: true
-
+    hibernate:
+      ddl-auto: create
 logging:
   level:
     com.ll.exam.springbatchtest: debug
