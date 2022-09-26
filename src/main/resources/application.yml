@@ -14,3 +14,7 @@ spring:
     password: roger3495
   jpa:
     show-sql: true
+
+logging:
+  level:
+    com.ll.exam.springbatchtest: debug
