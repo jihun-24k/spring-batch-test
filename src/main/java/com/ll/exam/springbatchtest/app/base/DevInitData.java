@@ -19,10 +19,15 @@ import java.util.Arrays;
 @Configuration
 @Profile("dev")
 public class DevInitData {
+    private boolean initDataDone = false;
+
     @Bean
     public CommandLineRunner initData(MemberService memberService, ProductService productService, CartService cartService, OrderService orderService) {
         return args ->
         {
+            if (initDataDone) return;
+            initDataDone = true;
+
             String password = "{noop}1234";
             Member member1 = memberService.join("user1", password, "user1@test.com");
             Member member2 = memberService.join("user2", password, "user2@test.com");
